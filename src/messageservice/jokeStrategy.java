@@ -17,7 +17,7 @@ public class jokeStrategy implements MessageServiceStrategy{
             + "my dad was a construction sign thief, but when I got home all the signs were there", "On the other hand, you have different fingers"};
     @Override
     public String getMessage(){
-        jokeNum = random.nextInt(3)+1;
+        jokeNum = random.nextInt((2) + 1);
         return jokeList[jokeNum];
     }
 }
