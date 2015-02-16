@@ -15,7 +15,7 @@ public class Startup {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        MessageService message = new MessageService(new jokeStrategy());
+        MessageService message = new MessageService(new nightStrategy());
         
         System.out.println(message.chooseMessage());
     }
